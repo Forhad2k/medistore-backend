@@ -15,6 +15,7 @@
     "declarationMap": true,
     "sourceMap": true
   },
+  "build": { "sourcemap": true },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
