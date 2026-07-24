@@ -37,7 +37,7 @@ if (process.env.NODE_ENV !== "test") {
 }
 
 // ─── Health Check ─────────────────────────────────────────────
-app.get("/health", (_req: Request, res: Response) => {
+app.get("/", (_req: Request, res: Response) => {
   res.json({
     success: true,
     message: "MediStore API is running 💊",
