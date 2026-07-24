@@ -20,7 +20,7 @@ async function startServer(): Promise<void> {
       console.log("╠══════════════════════════════════════╣");
       console.log(`║  Port    : ${PORT}                        ║`);
       console.log(`║  Mode    : ${process.env.NODE_ENV ?? "development"}              ║`);
-      console.log(`║  Health  : http://localhost:${PORT}/health  ║`);
+      console.log(`║  Health  : http://localhost:${PORT} ║`);
       console.log("╚══════════════════════════════════════╝\n");
     });
   } catch (error) {
