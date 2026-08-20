@@ -24,7 +24,7 @@ const app: Application = express();
 
 // ─── Global Middleware ────────────────────────────────────────
 app.use(cors({
-  origin: ["http://localhost:5173", process.env.CLIENT_URL],
+  origin: ["http://localhost:5173", "https://medistorebd.netlify.app"],
   credentials: true,
 }));
 app.use(express.json({ limit: "10kb" }));
